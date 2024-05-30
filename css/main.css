@@ -1,0 +1,51 @@
+@import url("fonts.css");
+
+* {
+    font-family: "montserrat-regular";
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+a {
+    font-family: "montserrat-regular";
+    text-decoration: none;
+    color: rgb(64, 92, 255);
+}
+
+a:hover {
+    color: rgb(92, 156, 255);
+}
+
+button {
+    font-family: "montserrat-semibold";
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 1.0);
+    text-decoration: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(233, 233, 233);
+    color: rgba(0, 0, 0, 1.0);
+}
+
+::-webkit-scrollbar {
+    width: auto;
+    background: rgb(66, 66, 66);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(123, 123, 123);
+    border: 2.5px solid rgb(66, 66, 66);
+    border-radius: 16px;
+}
+
+.no-select {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

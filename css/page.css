@@ -1,0 +1,126 @@
+@import url("main.css");
+
+body, html {
+    font-family: "montserrat-medium";
+    background-color: rgb(16, 18, 24);
+    color: rgb(255, 255, 255);
+}
+
+/* ---------------- Шапка страницы ---------------- */
+
+header {
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.75);
+    background-color: rgb(48, 52, 66);
+    width: 100%;
+    height: 48px;
+    z-index: 8192;
+    position: fixed;
+}
+
+header #logo {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+header #logo-icon {
+    background-image: url("../content/images/favicon.ico");
+    background-size: cover;
+    width: 38px;
+    height: 38px;
+    float: left;
+    margin: 5px;
+}
+
+header #logo-text {
+    font-family: "montserrat-medium";
+    font-size: 20px;
+    float: left;
+    margin: 4px;
+}
+
+/* ---------------- Основная часть страницы ---------------- */
+
+content {
+    height: 100vh;
+    font-size: 24px;
+
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+}
+
+content #fluid-canvas {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+}
+
+/* ---------------- Нижняя часть страницы ---------------- */
+
+footer {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
+    height: 256px;
+    background-color: rgb(8, 10, 14);
+    color: rgb(255, 255, 255);
+    position: relative;
+}
+
+footer #copyright {
+    font-family: "montserrat-regular";
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    margin: 16px;
+}
+
+footer #footer-content {
+    font-family: "montserrat-regular";
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-content-item {
+    text-align: center;
+    line-height: 1.5;
+}
+
+.footer-content-item:not(:last-child) {
+    border-right: 1px solid rgba(255, 255, 255, 0.15);
+    padding-right: 16px;
+    margin-right: 16px;
+}
+
+footer #github-pages {
+    font-family: "montserrat-regular";
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.15);
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 16px;
+}
+
+footer #site-version {
+    font-family: "montserrat-regular";
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.15);
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 16px;
+    padding-bottom: 20px;
+}
+

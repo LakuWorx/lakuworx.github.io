@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "montserrat-medium";
+    src: url("fonts/montserrat-medium.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "montserrat-semibold";
+    src: url("fonts/montserrat-semibold.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "montserrat-regular";
+    src: url("fonts/montserrat-regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
